@@ -5,7 +5,7 @@ from server_handler import FTPServer, ServerManager
 
 # 配置日志记录
 log_format = '%(asctime)s - %(levelname)s - %(message)s'
-file_handler = logging.FileHandler('ftp_server.log')
+file_handler = logging.FileHandler('../../logs/ftp_server.log')
 file_handler.setLevel(logging.INFO)
 file_handler.setFormatter(logging.Formatter(log_format))
 

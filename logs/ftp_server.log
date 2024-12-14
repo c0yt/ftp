@@ -6928,3 +6928,18 @@ Connection from ('127.0.0.1', 4991)
 2024-12-07 15:45:55,742 - INFO - [User: admin] Received: ls
 2024-12-07 15:45:55,742 - INFO - [User: admin] Listed files successfully.
 2024-12-07 15:45:57,211 - INFO - [User: admin] Received: whoami
+2024-12-14 23:23:32,151 - ERROR - [User: System] Error receiving message: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+2024-12-14 23:23:32,156 - INFO - [User: System] Client disconnected
+2024-12-14 23:23:53,661 - INFO - [User: System] Received: login admin admin
+2024-12-14 23:23:55,027 - INFO - [User: admin] Received: ls
+2024-12-14 23:23:55,028 - INFO - [User: admin] Listed files successfully.
+2024-12-14 23:24:00,156 - INFO - [User: admin] Received: ls
+2024-12-14 23:24:00,156 - INFO - [User: admin] Listed files successfully.
+2024-12-14 23:24:01,485 - INFO - [User: admin] Received: whoami
+2024-12-14 23:24:17,056 - INFO - [User: admin] Received: help
+2024-12-14 23:24:22,514 - INFO - [User: admin] Received: pwd
+2024-12-14 23:24:39,875 - INFO - [User: admin] Received: quit
+2024-12-14 23:24:39,875 - ERROR - [User: admin] Error receiving message: [WinError 10038] 在一个非套接字上尝试了一个操作。
+2024-12-14 23:24:39,882 - INFO - [User: admin] Client disconnected
+2024-12-14 23:24:39,882 - INFO - [User: admin] Client disconnected
+2024-12-14 23:24:39,974 - INFO - [User: admin] Client disconnected
