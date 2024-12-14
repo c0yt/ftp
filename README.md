@@ -1,4 +1,4 @@
-# 简易FTP服务端&客户端实现
+![image](https://github.com/user-attachments/assets/b0b55b6a-4240-47e7-a87a-9e219cebfd6e)![image](https://github.com/user-attachments/assets/1146982c-7a0b-449f-bbd0-9fac9af791c7)# 简易FTP服务端&客户端实现
 
 ### 文件结构
 
@@ -62,8 +62,8 @@
    - `help`:  展示帮助信息。
 
 3. 服务器界面
+   ![image](https://github.com/user-attachments/assets/9fa99e1c-20ee-4550-be29-4d961175d9d4)
 
-   ![image-20241214233422754](C:\Users\Sky\AppData\Roaming\Typora\typora-user-images\image-20241214233422754.png)
 
 ### 客户端
 
@@ -76,7 +76,7 @@
 
 2. 客户端界面
 
-   ![image-20241214233445921](C:\Users\Sky\AppData\Roaming\Typora\typora-user-images\image-20241214233445921.png)
+   ![image](https://github.com/user-attachments/assets/fb448976-742f-4047-bde2-229f73c6603f)
 
 ### 更新日志
 
