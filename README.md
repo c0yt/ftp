@@ -63,7 +63,6 @@
 
 3. 服务器界面
    ![image](https://github.com/user-attachments/assets/9fa99e1c-20ee-4550-be29-4d961175d9d4)
-   ![image](https://static.zhiqiantong.cn/upload/eduplat/question/20220822/1661153466146030466.png)
 
 
 ### 客户端
