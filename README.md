@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/b0b55b6a-4240-47e7-a87a-9e219cebfd6e)![image](https://github.com/user-attachments/assets/1146982c-7a0b-449f-bbd0-9fac9af791c7)# 简易FTP服务端&客户端实现
+# 简易FTP服务端&客户端实现
 
 ### 文件结构
 
