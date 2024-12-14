@@ -170,7 +170,9 @@ class FTPClient:
         try:
             # 创建文件选择对话框
             root = tk.Tk()
+            # 隐藏窗口
             root.withdraw()
+            # 设置窗口为最上层显示
             root.attributes('-topmost', True)
             
             # 选择保存目录
@@ -179,7 +181,7 @@ class FTPClient:
                 title="选择保存目录",
                 initialdir=os.getcwd()
             )
-            
+            # 销毁窗口
             root.destroy()
             
             if not save_dir:
@@ -225,8 +227,6 @@ class FTPClient:
                         encrypted_data = b''
                         while len(encrypted_data) < block_size:
                             chunk = self.socket.recv(min(block_size - len(encrypted_data), 8192))
-                            if not chunk:
-                                raise Exception("Connection lost")
                             encrypted_data += chunk
 
                         # 解密并写入数据
@@ -382,11 +382,10 @@ class FTPClient:
     # 格式化文件大小显示
     def format_size(self, size):
         # 依次尝试不同的单位
-        for unit in ['B', 'KB', 'MB', 'GB', 'TB']:
+        for unit in ['B', 'KB', 'MB', 'GB']:
             if size < 1024.0:
                 return f"{size:.1f}{unit}"
             size /= 1024.0
-        return f"{size:.1f}PB"
 
     # 执行FTP命令
     def execute_command(self, command):
@@ -409,9 +408,6 @@ class FTPClient:
             # 处理特殊命令的响应
             if command.lower() in ['ls', 'list', 'dir']:
                 self.display_file_list(response)
-                return None
-            elif command.lower() == 'who':
-                print(response)
                 return None
             
             return response
@@ -469,8 +465,8 @@ def main():
 
         # 执行登录
         print(f"正在尝试登录用户：{args.username}")
-        # password = getpass.getpass("请输入密码: ")
-        password = 'admin'
+        password = getpass.getpass("请输入密码: ")
+        # password = 'admin'
         if not client.login(args.username, password):
             return
 

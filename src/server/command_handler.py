@@ -245,8 +245,6 @@ class CommandHandler:
 
             # 接收文件大小
             buffer = self.server.client_socket.recv(intSize)
-            if not buffer:
-                raise Exception("Connection closed by client")
             
             file_size = struct.unpack('I', buffer)[0]
             received = 0
@@ -486,13 +484,6 @@ class CommandHandler:
             self.server.send_message(b'Usage: chat <message>')
             return
 
-        # # 发送聊天消息
-        # message = ' '.join(args)
-        # try:
-        #     print(f"\n{self.server.username}: {message}")
-        #     self.server.send_message(b'Message sent')
-        # except Exception as e:
-        #     self.server.send_message(b"Failed to send message")
 
     # 处理客户端退出
     def handle_quit(self):
