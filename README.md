@@ -61,7 +61,7 @@
    - `help`:  展示帮助信息。
 
 3. 服务器界面
-   ![image](https://github.com/user-attachments/assets/9fa99e1c-20ee-4550-be29-4d961175d9d4)
+   [![pAqrIjU.png](https://s21.ax1x.com/2024/12/15/pAqrIjU.png)](https://imgse.com/i/pAqrIjU)
 
 
 ### 客户端
@@ -75,7 +75,7 @@
 
 2. 客户端界面
 
-   ![image](https://github.com/user-attachments/assets/fb448976-742f-4047-bde2-229f73c6603f)
+   [![pAqrqE9.png](https://s21.ax1x.com/2024/12/15/pAqrqE9.png)](https://imgse.com/i/pAqrqE9)
 
 ### 更新日志
 
