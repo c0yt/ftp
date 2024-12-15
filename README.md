@@ -20,7 +20,6 @@
 │       ├── Server.py
 │       ├── Users
 │       │   ├── admin
-│       │ 
 │       └── users.db
 ```
 
